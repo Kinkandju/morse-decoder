@@ -53,3 +53,7 @@ function decode(expr) {
 
 	return array.join('');
 }
+
+module.exports = {
+	decode
+}
